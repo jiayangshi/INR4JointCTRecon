@@ -43,6 +43,11 @@ python single_inr.py
 python inr_wild.py
 ```
 
+## Hyperparameters
+You can tune the hyperparameters to achieve optimal reconstruction performance. The β parameter controls the regularization strength in joint reconstruction. For noisy data, β should generally be set higher than in noiseless cases. For example, in the noisy experiment on the walnut dataset described in the paper, we used β = 1e-7.
+
+For best results, you may also want to tune other parameters such as the number of assembly iterations, individual reconstruction iterations, and related settings.
+
 ## Citation
 If you find our paper useful, please cite
 ```bibtex
